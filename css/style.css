@@ -1,5 +1,65 @@
 img {
   height: 50%;
   object-fit: contain;
+  overflow: hidden;
   width: 50%;
+}
+
+ul {
+  font-family: monospace;
+  list-style: square;
+}
+
+ol {
+  list-style: lower-alpha;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+footer {
+  text-align: center;
+}
+
+.name {
+  font-family: "Andale Mono";
+}
+
+.mainbackground {
+  background-color: #f6f9f9;
+  font-family: monospace;
+  padding: 20px;
+}
+
+.imagebackground {
+  background-color: #adbdbd;
+  color: white;
+  padding: 20px;
+}
+
+.navigation {
+  background-color: #367c7d;
+  display: flex;
+}
+
+.navigation > a {
+  border-style: dashed;
+  font-size: 20px;
+  flex: 1;
+  height: 50px;
+  text-align: center;
+  width: 100px;
+}
+
+.col1 {
+  background-color: #2A64D8;
+}
+
+.col2 {
+  background-color: #2AD8CD;
+}
+
+.col3 {
+  background-color: #30D82A;
 }
