@@ -1,4 +1,5 @@
 img {
+  border-radius: 6px;
   height: 50%;
   object-fit: contain;
   overflow: hidden;
@@ -28,22 +29,22 @@ footer {
 
 .mainbackground {
   background-color: #f6f9f9;
-  font-family: monospace;
-  padding: 20px;
+  padding: 40px;
 }
 
 .imagebackground {
   background-color: #adbdbd;
   color: white;
-  padding: 20px;
+  padding: 40px;
 }
 
 .navigation {
   background-color: #367c7d;
+  padding: 20px;
   display: flex;
 }
 
-.navigation > a {
+.navigation>a {
   border-style: dashed;
   font-size: 20px;
   flex: 1;
