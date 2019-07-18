@@ -23,11 +23,12 @@ footer {
   text-align: center;
 }
 
-.name {
+#name {
   font-family: "Andale Mono";
 }
 
 .mainbackground {
+  margin: 0 auto;
   background-color: #f6f9f9;
   padding: 40px;
 }
@@ -39,8 +40,10 @@ footer {
 }
 
 .navigation {
+  position: fixed;
+  width: 100%;
   background-color: #367c7d;
-  padding: 20px;
+  justify-content: space-around;
   display: flex;
 }
 
@@ -51,6 +54,17 @@ footer {
   height: 50px;
   text-align: center;
   width: 100px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.para {
+  display: flex;
+  justify-content: space-around;
 }
 
 .col1 {

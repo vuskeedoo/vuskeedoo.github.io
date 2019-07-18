@@ -1,0 +1,167 @@
+/* Add layouts here */
+
+/* Layout 1 */
+/* header {
+  flex: auto;
+  align-items: flex-start;
+}
+
+h2 {
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+main {
+  flex: 80%;
+}
+
+.navigation {
+  font-size: 12px;
+  flex: 20%;
+}
+
+.links {
+  flex: 80px;
+}
+
+footer {
+  word-wrap: normal;
+  flex: auto;
+} */
+
+/* Layout 2 */
+/* header {
+  flex: auto;
+  align-items: flex-start;
+}
+
+h2 {
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+main {
+  flex: 50%;
+}
+
+.navigation {
+  font-size: 12px;
+  flex: 20%;
+}
+
+.links {
+  flex: 10%;
+}
+
+footer {
+  word-wrap: normal;
+  flex: auto;
+} */
+
+/* Layout 3 */
+/*header {
+  flex: auto;
+  align-items: flex-start;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+body :nth-child(2) {order: 1;}
+body :nth-child(3) {order: 2;}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.middle :nth-child(1) {order: 2;}
+.middle :nth-child(2) {order: 1;}
+.middle :nth-child(3) {order: 3;}
+
+main {
+  flex: 50%;
+}
+
+.navigation {
+  font-size: 12px;
+  flex: 20%;
+}
+
+.links {
+  flex: 10%;
+}
+
+footer {
+  word-wrap: normal;
+  flex: auto;
+} */
+
+/* Layout 4 */
+header {
+  flex: auto;
+  align-items: flex-start;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+article p:nth-child(2) {
+    float: left;
+    width: 200px;
+    background: #808080;
+    font-weight: bold;
+    padding: 5%;
+    margin: 0 13px 13px 0;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.middle :nth-child(1) {order: 2;}
+.middle :nth-child(2) {order: 1;}
+.middle :nth-child(3) {order: 3;}
+
+main {
+  flex: 50%;
+}
+
+.navigation {
+  font-size: 12px;
+  flex: 20%;
+}
+
+.links {
+  flex: 10%;
+}
+
+footer {
+  word-wrap: normal;
+  flex: auto;
+}

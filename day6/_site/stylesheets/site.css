@@ -1,0 +1,40 @@
+/* Add site styles here */
+@import url("https://bootswatch.com/4/slate/bootstrap.min.css");
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #191970;
+}
+
+h1 {
+  color: #4682B4;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h2 {
+  color: #6495ED;
+  text-shadow: 2px 2px black;
+}
+
+p {
+  color: #B0C4DE;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:visited {
+  color: pink;
+}
+
+ul {
+  list-style: lower-roman;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #191970;
+}
